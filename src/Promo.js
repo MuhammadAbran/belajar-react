@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import unnamed from './unnamed.png';
+import one from './1.jpg';
 import './App.css';
 
 class Product extends React.Component{
@@ -10,10 +10,10 @@ class Product extends React.Component{
 
    render(){
       return (
-        <div>
-            <img src={unnamed} className="App-logo" alt="logo" />
-            <h1>{this.props.judul}</h1>
-            <h3 className="harga">Harga: { this.props.harga }</h3>
+        <div className="warp-promo">
+            <img src={one} alt="Promo" />
+            <img src={one} alt="Promo" />
+            <h3 className="promo">Ini Promonya yaa, Doge Twinkie...</h3>
         </div>
       );
    }

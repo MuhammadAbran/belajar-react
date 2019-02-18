@@ -8,15 +8,42 @@
   pointer-events: none;
 }
 
+.App-promo{
+   background-color: #2c3e50;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding-top: 20px;
+}
+
+.promo{
+   color: white;
+   margin-top: -5px;
+   font-style: italic;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #2c3e50;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.App-content{
+   background-color: #ecf0f1;
+   border: 1px solid grey;
+   padding: 25px;
+   box-shadow: 5px 5px #888888;
+   margin: 20px 20px;
+}
+
+.harga{
+   color: #d35400;
 }
 
 .App-link {
