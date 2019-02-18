@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Product from './Product';
 
+const code = "<code>ngoding</code>";
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Hello World!.
-          </p>
+          <Product judul="aku suka doge doge wow " harga="12.000.000"/>
           <a
             className="App-link"
             href="https://reactjs.org"
